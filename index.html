@@ -3,10 +3,11 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>CSS Stylesheets with Relative Paths</title>
+  <title>Web Design</title>
 
   <!-- This line is money! It points your HTML to the CSS file. -->
   <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
@@ -16,25 +17,43 @@
         
       </header>
     
-      <main class="container">
-        <section id="landing-page" style="background-color:white;">
-          <h2>Summary Latitude vs X</h2>
+      <div class="container">
+        <div class="row">
+          <!-- summary frame -->
+          <div class="col col-md-8">
+            <br>
+            <hr> <h2>Summary Latitude vs X</h2>
           <section id="figure">
-            <img id="bio-image" src="Resources/assets/images/Fig1.png" alt="Vs. Max Temp">
+            <img id="main-image" src="Resources/assets/images/Fig1.png" alt="Vs. Max Temp">
           </section>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum risus ut justo laoreet consectetur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc dui neque, malesuada egestas aliquet ac, commodo in magna. Etiam mollis odio at mi maximus hendrerit. Integer aliquam id lectus nec hendrerit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris rhoncus eget nulla in ornare. Maecenas massa nibh, commodo non condimentum eu, congue tempus neque. Donec neque mi, ullamcorper eget fringilla et, iaculis vitae tortor. Curabitur vel nunc vel mi lobortis ornare ut non nulla. Etiam ornare libero ac suscipit aliquam. Nunc venenatis felis sit amet velit vehicula interdum. Vivamus iaculis condimentum nulla vitae dapibus.</p>
-        </section>
+          </div>
+          <!-- image frame -->
+          <div class="col-md-4">
+            <br>
+           <h2>Visualization</h2>
+           <hr>
+           <!-- col-xs-12 col-sm-3 -->
+          <div class="row">
+          
+            <div class=" col-md-2 ">
+            <img id="max" src="Resources/assets/images/Fig1.png" alt="Max Temp" class="img-responsive">
+            
+            <div class="col-md-2  "></div>
+            <img id="hum" src="Resources/assets/images/Fig2.png" alt="Humidity" class="img-responsive">
+            <div class="w-100"></div>
+            <div class=" col-md-2 "></div>
+            <img id="clo" src="Resources/assets/images/Fig3.png" alt="Cloudiness" class="img-responsive">
+            
+            <div class="col-md-2 "></div>
+            <img id="win" src="Resources/assets/images/Fig4.png" alt="Windspeed" class="img-responsive">
+         </div>
 
-        <aside id="visualization" style="background-color:white;">
-          <h2>Visualization</h2>
-          <ul>
-            <img id="bio-image" src="Resources/assets/images/Fig1.png" alt="Max Temp">
-            <img id="bio-image" src="Resources/assets/images/Fig2.png" alt="Humidity">
-            <img id="bio-image" src="Resources/assets/images/Fig3.png" alt="Cloudiness">
-            <img id="bio-image" src="Resources/assets/images/Fig4.png" alt="Windspeed">
-            </ul>
-        </aside>
-      </main>
+          </div>
+          </div>
+        </div>
+      </div>    
+       
 
 
 </body>
