@@ -34,8 +34,11 @@ a {
   /* Selecting elements by ID */
   #landing-page,
   #visualization,
-  #bio-image {
+  #main-image {
     float: left;
+    width: 180px;
+    height: 180px;
+    margin-right: 20px;
   }
   
   #figure {
@@ -44,21 +47,32 @@ a {
   
   
   #landing-page{
-    width: 40%;
-    padding: 0;
-    margin: 1;
-    border:#a81d1d
+    width: 40%;  
   }
   
   #visualization {
     width: 40%;
-    padding: 0;
-    margin: 1;
   }
   
-  #bio-image {
+  #hum {
+    width: 180px;
+    height: 180px;
+    margin-right: 20px;
+  }
+  #max{
     width: 180px;
     height: 180px;
     margin-right: 20px;
   }
   
+  #clo{
+    width: 180px;
+    height: 180px;
+    margin-right: 20px;
+  }
+
+  #win{
+    width: 180px;
+    height: 180px;
+    margin-right: 20px;
+  }
