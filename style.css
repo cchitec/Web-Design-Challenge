@@ -27,7 +27,7 @@ a {
 
 /* Selecting elements by class */
 .container {
-    width: 1024px;
+    width: 1200px;
     margin: 0 auto;
   }
   
@@ -44,11 +44,16 @@ a {
   
   
   #landing-page{
-    width: 52%;
+    width: 40%;
+    padding: 0;
+    margin: 1;
+    border:#a81d1d
   }
   
   #visualization {
-    width: 48%;
+    width: 40%;
+    padding: 0;
+    margin: 1;
   }
   
   #bio-image {
